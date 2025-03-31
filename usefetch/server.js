@@ -11,7 +11,7 @@ const server = http.createServer((req, res) => {
           id: 1,
           title: "This is a todo",
           body: "This is todo's body",
-        })
+        }),
       );
     }, 1500);
   } else {
