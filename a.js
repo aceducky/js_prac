@@ -18,7 +18,12 @@ const o2 = {
 
 o2.sayId();
 
-function sayId() {
-    console.log("ID func");
+// function sayId() {
+//     console.log("ID func");
+// }
+// sayId();
+
+function f1(){
+  this.id = "f1's ID";
 }
-sayId();
+console.log(new f1().id);
