@@ -6,8 +6,7 @@ const o1 = {
 };
 
 o1.sayId();
-o1["sayId"]()
-
+o1["sayId"]();
 
 const o2 = {
   id: 1,
@@ -23,7 +22,7 @@ o2.sayId();
 // }
 // sayId();
 
-function f1(){
+function f1() {
   this.id = "f1's ID";
 }
 console.log(new f1().id);
